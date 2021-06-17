@@ -1,0 +1,24 @@
+{
+  "name": "plastic_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ankit Jangra",
+  "license": "ISC",
+  "dependencies": {
+    "aos": "^2.3.4",
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "express-generator": "^4.16.1",
+    "mailgun-js": "^0.22.0",
+    "mongoose": "^5.10.11",
+    "nexmo": "^2.0.2",
+    "nodemailer": "^6.4.14",
+    "nodemailer-mailgun-transport": "^2.0.1",
+    "socket.io": "^2.0.4"
+  }
+}

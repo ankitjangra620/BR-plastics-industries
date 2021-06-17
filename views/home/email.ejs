@@ -1,0 +1,25 @@
+<%- include("../partials2/header.ejs")%>
+
+<div class="login-wrapper">
+    <form action="/email" method="POST" class="form">
+      <img src="https://i.pinimg.com/originals/84/6a/03/846a03c6760f83f3a0e92609bca9cebf.jpg" alt="">
+      <h2>E-Mail</h2>
+      <div class="input-group">
+        <input type="text" name="name" id="loginUser" required>
+        <label for="loginUser">Name</label>
+      </div>
+      <div class="input-group">
+        <input type="email" name="email" id="loginPassword" required>
+        <label for="loginPassword">E-Mail</label>
+      </div>
+      <div class="input-group">
+        <input type="textarea" name="message" id="loginPassword" required>
+        <label for="loginPassword">Enter a message</label>
+      </div>
+      <input type="submit" value="Send" id="send" class="submit-btn">
+    
+    </form>
+    
+  </div>
+
+  <%- include("../partials2/footer.ejs")%> 

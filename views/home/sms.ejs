@@ -1,0 +1,33 @@
+<%- include("../partials2/header.ejs")%>
+
+<div class="login-wrapper">
+    <form action="/sms" class="form" method="POST">
+      <img src="https://st2.depositphotos.com/3921439/7824/v/450/depositphotos_78246584-stock-illustration-the-sms-icon-text-message.jpg" alt="">
+      <h2>SMS</h2>
+      <p class="alert">SMS Sent</p>
+      <div class="input-group">
+        <input type="text" name="name" id="loginUser" required>
+        <label for="loginUser">Name</label>
+      </div>
+      <div class="input-group">
+        <input type="tel" name="number" id="number" required>
+        <label for="number">Mobile No.</label>
+      </div>
+      <div class="input-group">
+        <input type="textarea" name="message" id="msg" required>
+        <label for="msg">Enter a message</label>
+      </div>
+      <div class="input-group" id="button">
+      <button type="submit" id="smsSend" id="send"  class="submit-btn">Send</button>
+     </div>
+    
+    </form>
+  </div>
+
+
+
+
+
+
+
+<%- include("../partials2/footer.ejs")%> 
